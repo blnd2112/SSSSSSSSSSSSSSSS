@@ -19,5 +19,5 @@ db = deta.Base("bb")
 # write the data from the form to the database.
 # You can store any data you want here. Just modify that dictionary below (the entries between the {}).
 if submitted:
-    db.put({"name": Name, "Phone number": ph})
+    db.put({"Name": Name, "Phone number": ph})
 
