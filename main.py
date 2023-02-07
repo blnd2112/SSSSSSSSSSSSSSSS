@@ -16,7 +16,7 @@ deta = Deta(st.secrets["deta_key"])
 # Create a new database "example-db"
 # If you need a new database, just use another name.
 db = deta.Base("bb")
-st.write("https://cdn.discordapp.com/attachments/847070786639495208/1072487501442322522/b.png")
+st.write("https://cdn.discordapp.com/attachments/847070786639495208/1072487501442322522/b.png)
 # If the user clicked the submit button,
 # write the data from the form to the database.
 # You can store any data you want here. Just modify that dictionary below (the entries between the {}).
