@@ -3,7 +3,7 @@ from deta import Deta
 
 # Data to be written to Deta Base
 with st.form("form"):
-    name = st.text_input("Your name")
+    Name = st.text_input("Your name")
     ph = st.text_input("Your Phone number")
     submitted = st.form_submit_button("done")
 
@@ -19,5 +19,5 @@ db = deta.Base("bb")
 # write the data from the form to the database.
 # You can store any data you want here. Just modify that dictionary below (the entries between the {}).
 if submitted:
-    db.put({"name": name, "Phone number": ph})
+    db.put({"name": Name, "Phone number": ph})
 
